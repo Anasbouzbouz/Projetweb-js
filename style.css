@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+}
+#offers {
+    background-color: #004042;
+    text-align: right;
+    color: white;
+    margin: 0%;
+    padding: 1px;
+    
+}
+#offers a {
+    text-decoration: none;
+    color: white;
+}
+#offers  img{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle; /* /!\ to aligne the image with the paragraphe*/
+}
+#offers p {
+    padding-right: 15%;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
