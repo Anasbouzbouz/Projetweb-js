@@ -18,32 +18,61 @@ body{
    width: 40px;
    vertical-align: middle; /* /!\ to aligne the image with the paragraphe*/
 }
-#offers p {
-    padding-right: 15%;
+#offers a ,p{
+    padding-right: 8%;
     margin: 0px;
-    font-size: 12px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: rgb(213, 250, 236);
-    padding: 10px;
-    text-align: center;
+    background-color: rgb(230, 245, 239);
+    padding: 0px ;
+    align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    width: 100%;
 }
 #navbar li,a{
     text-decoration: none;
     list-style: none;
     color: #004042;
+    
+    font-size: 16px;
+    font-family: Recoleta;
 }
-#navbar {
-display: flex;
-justify-content: space-between;
+.Co{
+    color: lightgreen;
 }
 #navbar ul {
 display: flex;
+gap: 2px;
 
 }
-#gaiaicon{
-   display: flex;
+.gaiaicon{
+   padding-left: 200px;
 }
+.storiesicon{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    padding: 3px;
+}
+.storieslink{
+    padding-right: 80px;
+}
+.nav-item:hover{
+    transform: scale(1.1,1.3);
+    transition: 0.5s;
+    border-bottom: #004042 1px solid;
+    padding-right: 15px;
+    
+}
+.nav-item  {
+    padding: 8px;
+}
+
+
+
