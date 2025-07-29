@@ -24,3 +24,26 @@ body{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
+header{
+    background-color: rgb(213, 250, 236);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#navbar li,a{
+    text-decoration: none;
+    list-style: none;
+    color: #004042;
+}
+#navbar {
+display: flex;
+justify-content: space-between;
+}
+#navbar ul {
+display: flex;
+
+}
+#gaiaicon{
+   display: flex;
+}
