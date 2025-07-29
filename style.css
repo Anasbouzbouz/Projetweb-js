@@ -1,60 +1,49 @@
-body {
-    margin: 0; /* You can adjust the value as needed */
-}
-
-#discount {
-    background-color: #028a1f9f;
-    color: #ffffff;
-    padding: 5px;
+body{
     margin: 0%;
+}
+#offers {
+    background-color: #004042;
     text-align: right;
+    color: white;
+    margin: 0%;
+    padding: 1px;
+    
 }
-#discount p {
-    margin: 5px;
-    font-size: 14px;
-    padding-right:10%;  
-}
-header li {
-    display: inline-block;
-    margin-right: 20px;   
-}
-header li a {
-    color: #c76422;
+#offers a {
     text-decoration: none;
-    font-size: 16px;
+    color: white;
 }
-header {
-    background-color: #f1f0f0;
-    padding: 10px 10px;
+#offers  img{
+   height: 40px;
+   width: 40px;
+   vertical-align: middle; /* /!\ to aligne the image with the paragraphe*/
+}
+#offers p {
+    padding-right: 15%;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(213, 250, 236);
+    padding: 10px;
     text-align: center;
-}
-#navbar {
     display: flex;
     justify-content: center;
 }
-#navbar ul {
-   display: flex;
-}
-
-#discount a {
-    color: #ffffff;
+#navbar li,a{
     text-decoration: none;
+    list-style: none;
+    color: #004042;
 }
-
-/* Default hover zoom */
-.navitems:hover {
-    transform: scale(1.3);
-    z-index: 2;
-    transition: 0.5s;
+#navbar {
+display: flex;
+justify-content: space-between;
 }
+#navbar ul {
+display: flex;
 
-/* Logic for moving others around the hovered item */
-.navitems:hover ~ .navitems {
-  transform: translateX(10px); /* Move items to the right */
-  transition: 0.5s;
 }
-
-.navitems:has(~ .navitems:hover) {
-  transform: translateX(-10px); /* Move items to the left */
-  transition: 0.5s;
+#gaiaicon{
+   display: flex;
 }
