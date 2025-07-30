@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
     <title>Gaia Flowers &amp; Plants </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div id="offers">
@@ -12,26 +14,67 @@
         </p> 
     </div>
     <header>
-        <a class="gaiaicon" href="index.html"><img src="icons/logo.svg" alt="GaiaLogo"></a>
+        <div id="gaia-icon">
+            <a href="index.html"><img src="icons/logo.svg" alt="GaiaLogo"></a>
+        </div>
         <div id="navbar">
             
             <nav> 
-                <ul>
+                <ul class="navlist">   
+                    <li class="nav-item" style="position:relative;">
+                      <a href="#" id="subscription-btn">Subscription<i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <div id="subscription-menu">
+                        <div class="dropdown-body">
+                            <div class = "subscription-lst">
+                                <a href="#">
+                                    <h1>Monthly</h1>
+                                    <p>Delivered once in month</p>
+                                </a>
+                                <ul class="monthly-list">
+                                    <li>Mini Flower Subscription</li>
+                                    <li>Mono Flower Subscription</li>
+                                    <li>Grand Flower Subscription</li>
+                                    <li>Premium Flower Subscription</li>
+                                    <li>View All Packages</li>
+                                </ul>
+                            </div>
+                            <div class ="subscription-lst">
+                                <a href="#">
+                                    <h1>Weekly</h1>
+                                    <p>Delivered once in week</p>
+                                </a>
+                                <ul class="weekly-list">
+                                    <li>Mini Flower Subscription</li>
+                                    <li>Mono Flower Subscription</li>
+                                    <li>Grand Flower Subscription</li>
+                                    <li>Premium Flower Subscription</li>
+                                    <li>View All Packages</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class = "subscription-lst-1">
+                                    <a href="#">
+                                        <img src="icons/plant.png" alt="plant">Create my subscription<i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                     <li class="nav-item"><a href="#">Flower Shop</a></li>
                     <li class="nav-item"><a href="#">Plant Shop</a></li>
-                    <li class="nav-item"><a href="#">CO.hub</a></li>
+                    <li class="nav-item"><a href="#"><span class="Co">Co</span>.hub</a></li>
                     <li class="nav-item"><a href="#">Workshop &amp; Courses  </a></li>
-                    <li class="nav-item"><a href="#">Blogs</a></li>
+                    <li class="nav-item"><a href="#"><span class="blogs">Blogs</span></a></li>
                 </ul> 
             </nav>
-
-        </div>    
-        
+        </div>
+        <div id="stories-link">
+            <a href="#"><img src="icons/stories.svg" alt="iconstories">Stories</a>    
+        </div>
        
     </header>
-    <main>
-        
-        
+    <main>      
     </main>
     <footer>
         

@@ -18,32 +18,118 @@ body{
    width: 40px;
    vertical-align: middle; /* /!\ to aligne the image with the paragraphe*/
 }
-#offers p {
-    padding-right: 15%;
+#offers a ,p{
+    padding-right: 8%;
     margin: 0px;
-    font-size: 12px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: rgb(213, 250, 236);
-    padding: 10px;
-    text-align: center;
+    background-color: #effaea;
+    padding: 0px ;
+    align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    width: 100%;
 }
 #navbar li,a{
     text-decoration: none;
     list-style: none;
     color: #004042;
+    
+    font-size: 16px;
+    font-family: Recoleta;
+}
+.Co{
+    color: lightgreen;
+}
+.blogs{
+    font-weight: bold;
+}
+ul.navlist { /* to target only the ul navlist */
+display: flex;
+}
+#stories-link img{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.nav-item:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.5s;
+    border-bottom: #004042 1px solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+.nav-item  {
+    padding: 8px;
+}
+#gaia-icon {
+   height: 100%;
+   align-content: center;
+   padding-left: 5%;
+} 
+#stories-link {
+    height: 100%;
+    align-content: center;
+    padding-right: 5%;
 }
 #navbar {
-display: flex;
-justify-content: space-between;
+    height: 100%;
+    align-content: center;
 }
-#navbar ul {
-display: flex;
+#subscription-menu {
+    display: none;
+    background-color: #effaea;
+    position:fixed; /* fixed the position of the dropdown and eliminate the overflow*/
+    left: 0;
+    top: 122px; /* height of your navbar/header */
+    z-index: 1000;
+    justify-content: center;
+    width: 100%;    
+}
+.dropdown-body {
+    display: flex;
+    padding : 40px;
+    justify-content: space-between;
 
 }
-#gaiaicon{
-   display: flex;
+.monthly-list , .weekly-list {
+    text-decoration: none;  
+    padding-left: 0px;
+     
+}
+.subscription-lst h1 {
+   margin : 0;   
+}
+.subscription-lst p {
+
+    margin-bottom: 20px;
+}
+.monthly-list li, .weekly-list li {
+    list-style: none;
+    padding: 5px 0;
+}
+.subscription-lst-1 a {
+    display: flex;
+    align-items: center;   /* Vertically center text with image */
+    justify-content: flex-start; /* Align content to the left */
+    gap: 12px;             /* Space between image and text (adjust as needed) */  
+}
+.subscription-lst-1 img {
+    display: block;
+    object-fit: contain;
+}
+
+.fa-solid {
+    color: #004042;
+    font-size: 15px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
 }
