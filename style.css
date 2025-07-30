@@ -58,6 +58,9 @@ display: flex;
     vertical-align: middle;
     padding: 3px;
 }
+.navlist{
+    padding-inline-start: 0px;
+}
 
 .nav-item:hover{
     transform: scale(1.1,1.1);
@@ -93,11 +96,14 @@ display: flex;
     z-index: 1000;
     justify-content: center;
     width: 100%;    
+    
 }
 .dropdown-body {
     display: flex;
-    padding : 40px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15%;
+    padding: 40px;
+    
 
 }
 .monthly-list , .weekly-list {
