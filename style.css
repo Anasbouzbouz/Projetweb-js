@@ -41,7 +41,7 @@ header{
     color: #004042;
     
     font-size: 16px;
-    font-family: Recoleta;
+    font-family: 'Mononoki';
 }
 .Co{
     color: lightgreen;
@@ -60,6 +60,9 @@ display: flex;
     width: 25px;
     vertical-align: middle;
     padding: 3px;
+}
+.navlist{
+    padding-inline-start: 0px;
 }
 
 .nav-item:hover{
@@ -96,12 +99,14 @@ display: flex;
     z-index: 1000;
     justify-content: center;
     width: 100%;    
+    
 }
 .dropdown-body {
     display: flex;
-    padding : 40px;
-    gap: 15%;
     justify-content: center;
+    gap: 15%;
+    padding: 40px;
+    
 
 }
 .monthly-list , .weekly-list {
@@ -139,5 +144,49 @@ display: flex;
 }
 
 #hero {
-    height: 500px;
+    background-image: url('icons/home_landing_page.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 496px; /* Adjust as needed */
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+}
+.hero-content {
+    flex-direction: column;
+    display: flex;
+    gap: 24px; /* Adjust the value for more or less space */
+    margin: 10%;
+}
+#hero h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    color: #004042;
+    line-height: 1.2;
+    font-family: 'Mononoki';
+    font-weight: bolder;
+}
+.hero-content-p {
+    width: 445px;
+    font-size: 16px;
+    font-family: 'Mononoki';
+    color: #004042;
+    line-height: 1.6;
+}
+.hero-content button {
+    background-color: #004042;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Mononoki';
+    border-radius: 5px;
+}
+.hero-content button:hover {
+    background-color: white; /* Darker shade for hover effect */
+    transition: background-color 0.3s ease;
+    color: #004042;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
