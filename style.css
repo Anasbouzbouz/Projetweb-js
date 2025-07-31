@@ -52,6 +52,9 @@ header{
 ul.navlist { /* to target only the ul navlist */
 display: flex;
 }
+.navlist {
+    padding-inline-start: 0px;
+}
 #stories-link img{
     height: 25px;
     width: 25px;
@@ -97,7 +100,8 @@ display: flex;
 .dropdown-body {
     display: flex;
     padding : 40px;
-    justify-content: space-between;
+    gap: 15%;
+    justify-content: center;
 
 }
 .monthly-list , .weekly-list {
@@ -132,4 +136,8 @@ display: flex;
     font-size: 15px;
     margin-left: 10px;
     transition: transform 0.3s ease;
+}
+
+#hero {
+    height: 500px;
 }

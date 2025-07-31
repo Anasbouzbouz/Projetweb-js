@@ -8,10 +8,10 @@ subscriptionBtn.addEventListener('click', function(event) {
     if (dropdownMenu.style.display === 'none') {
         dropdownMenu.style.display = 'block' ; 
         
-        arrow[0].style.transform = "scaleY(-1)"; // vertical flip
+        arrow[0].style.transform = "rotate(180deg)"; // rotate arrow down to up
     }else {
         dropdownMenu.style.display = 'none';
         
-        arrow[0].style.transform = "scaleY(1)"; // remove vertical flip
+        arrow[0].style.transform = "rotate(0deg)"; // reset rotation
     }
 });
