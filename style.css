@@ -1,6 +1,8 @@
 body{
     margin: 0%;
+    
 }
+
 #offers {
     background-color: #004042;
     text-align: right;
@@ -59,7 +61,7 @@ display: flex;
     padding: 3px;
 }
 .navlist{
-    padding-inline-start: 0px;
+    padding-left: 0px; /* remove the left gap*/
 }
 
 .nav-item:hover{
@@ -71,12 +73,12 @@ display: flex;
     
 }
 .nav-item  {
-    padding: 8px;
+    padding: 10px;
 }
 #gaia-icon {
    height: 100%;
    align-content: center;
-   padding-left: 5%;
+   padding-left: 15%;
 } 
 #stories-link {
     height: 100%;
@@ -139,3 +141,52 @@ display: flex;
     margin-left: 10px;
     transition: transform 0.3s ease;
 }
+
+#hero {
+    background-image: url('icons/home_landing_page.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 496px; /* Adjust as needed */
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+}
+#hero h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 48px;
+    color: #004042;
+    line-height: 1.2;
+    font-family: 'Recoleta';
+    
+}
+.hero-content {
+    flex-direction: column;
+    display: flex;
+    /* Adjust the value for more or less space */
+    margin-left: 15%;
+    margin-top: 6%;
+    gap: 18px;
+}
+.hero-content button{
+    margin-top: 3%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #004042;
+    color: white;
+    font-family: recoleta;
+    font-size: 15px;
+    
+}
+.hero-content span{
+    color: rgb(0, 104, 111);
+}
+.hero-content p {
+    font-size: 16px;
+    color: #1b6568;
+    width: 445px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
