@@ -26,6 +26,7 @@ body{
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header{
     background-color: #effaea;
     padding: 0px ;
@@ -114,7 +115,8 @@ display: flex;
      
 }
 .subscription-lst h1 {
-   margin : 0;   
+   margin : 0; 
+     
 }
 .subscription-lst p {
 
@@ -134,10 +136,14 @@ display: flex;
     display: block;
     object-fit: contain;
 }
+.subscription-lst p {
+    color: rgba(0, 64, 66, 0.4);
+    font-size: 1rem;
+}
 
 .fa-solid {
     color: #004042;
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 10px;
     transition: transform 0.3s ease;
 }
@@ -170,13 +176,15 @@ display: flex;
 }
 .hero-content button{
     margin-top: 3%;
-    padding: 15px;
+    padding: 15px 30px;
     border-radius: 5px;
     border: none;
+    border-color: #004042;
     background-color: #004042;
     color: white;
     font-family: recoleta;
-    font-size: 15px;
+    font-size: 20px;
+    cursor: pointer;
     
 }
 .hero-content span{
@@ -189,4 +197,45 @@ display: flex;
     line-height: 1.6;
     font-style: italic;
 }
+.sub-bttn:hover{
+    background-color: white;
+    color:#004042 ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.guide-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #ecf3f4;
+    height: 480px;;
 
+}
+.guide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+.guide-content h3{
+ color: #004042;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.guide-content a {
+    text-decoration: underline;
+}
+.guide-content p {
+    color: #004042;
+    font-size: 16px;
+    padding: 0%;
+    
+}
+.guide-content h1 {
+    color: #004042;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: 'Recoleta';
+    line-height: 0.9;
+}
