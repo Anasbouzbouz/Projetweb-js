@@ -356,23 +356,23 @@ display: flex;
 .view-all-packages:hover {
     text-decoration: underline;
 }
-#best-value::before{
+.subscription-packages > div:nth-child(3)::before {
     content: "Best value";
-    position:absolute;
+    position: absolute;
     height: 31px;
     width: 114px;
     background-color: #028174;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-radius: 6px 6px 0 0;
     color: #fff;
     place-items: center;
-    top: -31px;
+    top: -35px;
     left: 50px;
     font-family: Recoleta;
     font-size: 16px;
-    padding-top: 5px
+    padding-top: 5px;
     
+
 }
-#best-value{
+.subscription-packages > div:nth-child(3) {
     position: relative;
 }
