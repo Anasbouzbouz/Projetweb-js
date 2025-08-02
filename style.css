@@ -20,7 +20,13 @@ body{
    width: 40px;
    vertical-align: middle; /* /!\ to aligne the image with the paragraphe*/
 }
-#offers a ,p{
+#offers a {
+    padding-right: 8%;
+    margin: 0px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#offers p {
     padding-right: 8%;
     margin: 0px;
     font-size: 13px;
@@ -37,6 +43,7 @@ header{
     height: 80px;
     width: 100%;
     position: sticky;
+    z-index: 1000;
 }
 #navbar li,a{
     text-decoration: none;
@@ -245,8 +252,98 @@ display: flex;
 .subscription-packages {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 40px 0;
+    padding: 80px;
+    gap: 5%;
     background-color: #ededeb;
+    align-items: center;
+}
+.package-view {
+    position: fixed ;
+}
+.subscription-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 700px;
+    padding: 50px 30px;
+    background-color: #ecf3f4;
+    
+    
+}
+.subscription-offer .offer-img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+.subscription-offer button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    border-color: #004042;
+    background-color: #004042;
+    color: white;
+    font-family: recoleta;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: auto;
+}
+.subscription-packages-content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 30%;
+}
+.subscription-packages-content img {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 100px;
+}
+.subscription-offer:hover {
+    transform: translate(10px,-10px);
+    transition: 0.5s;
+    box-shadow: -15px 15px #dddddd ;
+}
+.subscription-offer h2 {
+    color: #004042;
+    font-size: 32px;
+    
+}
+.subscription-packages-content h3 {
+    color: #004042;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    
+}
+.prices{
+    color: #004042;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: -5%;
+    margin-bottom: 2%;
+}
+
+.prices span {
+    font-size: 16px;
+    color: #004042;
+}
+.sub-discription {
+    color: #004042;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-bottom: 0%;
+}
+.offers-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.friendly-offer {   
+    color:#004042
 }
