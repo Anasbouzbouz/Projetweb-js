@@ -242,3 +242,11 @@ display: flex;
     font-family: 'Recoleta';
     line-height: 0.9;
 }
+.subscription-packages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    background-color: #ededeb;
+}
