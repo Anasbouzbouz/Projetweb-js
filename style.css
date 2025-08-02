@@ -242,3 +242,51 @@ display: flex;
     font-family: 'Recoleta';
     line-height: 0.9;
 }
+.subscription-packages {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 30px;
+    background-color: #ededeb;
+}
+.package-view {
+    position: fixed ;
+}
+.subscription-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: auto;
+    padding: 30px;
+    background-color: #ecf3f4;
+}
+.subscription-offer .offer-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.subscription-offer button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    border-color: #004042;
+    background-color: #004042;
+    color: white;
+    font-family: recoleta;
+    font-size: 20px;
+    cursor: pointer;
+}
+.subscription-packages-content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 30%;
+}
+.subscription-packages-content img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 100px;
+}
