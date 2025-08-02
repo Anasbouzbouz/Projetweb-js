@@ -251,7 +251,6 @@ display: flex;
 }
 .subscription-packages {
     display: flex;
-    justify-content: center;
     padding: 80px;
     gap: 5%;
     background-color: #ededeb;
@@ -346,4 +345,9 @@ display: flex;
 }
 .friendly-offer {   
     color:#004042
+}
+.view-all-packages{
+    position: relative;
+    top:450px;
+    left: -50%; 
 }
